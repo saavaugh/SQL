@@ -1,0 +1,20 @@
+
+-- Create Book Database
+/**Books
+Lovely Bones, 1 
+Gone Girl, 2
+The Vanishing Half, 3 **/
+
+CREATE TABLE books (id integer primary key, name text, rank integer);
+
+
+
+--Insert Values into Database 
+INSERT into Books Values (1, 'Lovely Bones', 1); 
+INSERT into Books Values (2, 'The Vanishing Half', 3);
+INSERT into Books Values (3, 'Gone Girl', 2);
+
+
+--Order Books by ranking 
+SELECT * FROM Books ORDER By Rank;
+
